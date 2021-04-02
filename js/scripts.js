@@ -8,9 +8,6 @@ class List {
 function makeWord(){
   let test = new List();
   let max = (test.words).length + 1;
-  // function getRandomInt(0, max) {
-  //   return Math.floor(Math.random() * (max - min)) + min;
-  // }
   let randomNumber = Math.floor(Math.random() * ((test.words).length));
   let word = (test.words[randomNumber])
   return word;
